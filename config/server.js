@@ -1,5 +1,5 @@
 module.exports = ({ env }) => ({
-  url: "https://strapi-ecommerce-7b0b.onrender.com",
+  url: "https://strapi-ecommerce-mla2.onrender.com",
   host: env('HOST', process.env.HOST || '0.0.0.0'),
   port: env.int('PORT', process.env.PORT || 1337),
   admin: {
