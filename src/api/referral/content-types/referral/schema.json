@@ -23,6 +23,11 @@
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user",
       "mappedBy": "referral"
+    },
+    "referral_used": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
